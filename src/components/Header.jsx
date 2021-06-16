@@ -71,7 +71,7 @@ const Header = () => (
                         <a  href="#tattoos">TATUAJES</a>
                      </li>
                      <li className="nav-item">
-                        <a  href="#piercings">PIERCING</a>
+                        <a  href="#piercings">PIERCING'S</a>
                      </li>
                   </ul>
                   <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
