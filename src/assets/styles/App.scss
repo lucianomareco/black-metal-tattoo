@@ -1,0 +1,17 @@
+@import "./Vars.scss";
+@import "./Media.scss";
+
+body {
+  background: black;
+  font-family: $theme-font;
+  font-weight: 100;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #d72e39;
+}

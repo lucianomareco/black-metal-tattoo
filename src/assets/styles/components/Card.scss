@@ -1,0 +1,49 @@
+.card:hover {
+  box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.273) !important;
+  transition: all 0.7s linear;
+}
+
+.card {
+  margin: 50px 10px;
+  width: 200px;
+  max-height: 400px;
+}
+
+.card .data-container {
+  position: absolute;
+  text-align: start;
+  width: 100%;
+  bottom: 0px;
+  padding-top: 40px;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(0, 0, 0, 0)),
+    to(rgba(0, 0, 0, 1)),
+    color-stop(0.7, #000000)
+  );
+}
+
+.card-title {
+  padding-left: 10px;
+  font-size: 1rem;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+.card {
+  transform: scale(1);
+  transition: all 0.04s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.fab {
+  padding-left: 10px;
+  font-size: 1.3rem;
+}

@@ -1,0 +1,35 @@
+@import "../Vars.scss";
+
+.tattooerCard .row {
+  background-color: #222;
+  max-width: 900px;
+}
+
+.tattooerCard .image-container {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.tattooerCard img {
+  max-width: 450px;
+  max-height: 500px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.tattooerCard h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 100;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.tattooerCard p {
+  font-family: $second-font;
+  font-size: 1rem;
+  color: $red-color;
+  max-width: 80%;
+  margin: 0 auto;
+}

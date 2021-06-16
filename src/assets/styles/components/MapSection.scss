@@ -1,0 +1,43 @@
+@import "../Vars.scss";
+
+.mapSection {
+  background: rgb(25, 25, 25);
+  background: radial-gradient(
+    circle,
+    rgba(25, 25, 25, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.mapSection h3 {
+  background: none;
+  color: white;
+  font-size: 50px;
+  font-weight: 100;
+  width: 100%;
+}
+
+.mapSection p {
+  font-family: $second-font;
+  font-size: 1rem;
+  color: $red-color;
+}
+
+.mapSection .map-container {
+  padding: 40px 0;
+}
+
+.mapSection .data-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 60px;
+}
+
+@media (max-width: 998px) {
+  .mapSection .data-container {
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+}

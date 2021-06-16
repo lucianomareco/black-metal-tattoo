@@ -1,0 +1,24 @@
+.buttonRed {
+  z-index: 4;
+  background-color: #d92e37;
+  border: 1px solid #222;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 15px;
+  text-decoration: none;
+  width: 250px;
+  height: 50px;
+  padding: auto;
+}
+.buttonRed:hover {
+  background-color: #f5464f;
+}
+.buttonRed:active {
+  position: relative;
+  top: 1px;
+}
+.buttonRed a {
+  color: white;
+  text-decoration: none;
+}

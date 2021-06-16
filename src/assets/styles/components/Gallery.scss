@@ -1,0 +1,11 @@
+.carousel.slide {
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+.carousel-image {
+  height: 500px;
+  width: 80%;
+  object-fit: cover;
+  max-width: 500px;
+}
