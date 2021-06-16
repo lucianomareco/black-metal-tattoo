@@ -13,7 +13,7 @@
   "keywords": [],
   "author": "Luciano Mareco <lucianogastonmareco@gmail.com>",
   "license": "ISC",
-  "homepage": "https://lucianomareco.github.io/black-metal-tattoo-v2",
+  "homepage": "https://lucianomareco.github.io/black-metal-tattoo",
   "dependencies": {
     "bootstrap": "^4.6.0",
     "gh-pages": "^3.2.1",
