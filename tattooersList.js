@@ -9,21 +9,21 @@ import imageBrian from './src/assets/imgs/tattooers/brianAcosta.jpg'
 const tattooersList = [
   {
     "id": 1,
-    "name": "Lourdes Ávalos",
+    "name": "Lourdes",
     "image": imageLourdes,
     "instagram": "negrotattuajes",
-    "phoneNumber": "5491162084903"
+    "phoneNumber": "5491123280468"
   },
   {
     "id": 2,
-    "name": "Agustín Ortega",
+    "name": "Agustín",
     "image": imageAgustin,
     "instagram": "_louavalos",
     "phoneNumber": "5491169208584"
   },
   {
     "id": 3,
-    "name": "Facundo Gritti",
+    "name": "Facundo",
     "image": imageFacundo,
     "instagram": "facu.gritti",
     "phoneNumber": "5491165338628"
@@ -31,14 +31,14 @@ const tattooersList = [
 
   {
     "id": 4,
-    "name": "Santigo Mansilla",
+    "name": "Santigo",
     "image": imageSantiago,
     "instagram": "santimansillatatu",
     "phoneNumber": "5491162084903"
   },
   {
     "id": 5,
-    "name": "Brian Acosta",
+    "name": "Brian",
     "image": imageBrian,
     "instagram": "baphomek",
     "phoneNumber": "5491132759425"
