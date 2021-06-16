@@ -10,7 +10,7 @@ const FirstSection = () => {
  
   return (
 
-    <section className="home">
+    <section className="home" id="home">
       <div className="home--img-container" style={{ backgroundImage: `url(${background})` }}>
           <article className="home--logo-container">
               <img src={logo}/>

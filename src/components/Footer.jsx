@@ -4,7 +4,7 @@ import '../assets/styles/components/Footer.scss';
 
 const Footer = () =>(
     <footer className="footer">
-        <a href="/#">Home</a>
+        <a href="#home">Home</a>
         <a href="https://www.instagram.com/blackmetaltattoos" target="_blank">Instagram</a>
     </footer>
 );
